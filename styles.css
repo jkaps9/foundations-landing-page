@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -17,7 +19,7 @@ header{
     min-height: 72px;
     background-color: #1F2937;
     display: flex;
-    padding: 20px;
+    padding: 20px 100px;
 }
 
 .logo {
@@ -41,11 +43,46 @@ header ul li{
 /* SECTIONS */
 section {
     flex: 1;
-    padding: 20px;
+    padding: 20px 110px;
 }
 
 .hero {
     background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero .left-side {
+    flex: 1;
+}
+
+.hero button {
+    margin-top: 12px;
+    background-color: #3882F6;
+    border: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 32px;
+    border-radius: 8px;
+}
+
+.hero .right-side {
+    flex: 0;
+    min-width: 500px;
+    height: 225px;
+    background-color: #888;
+    text-align: center;
+    align-content: center;
 }
 
 /* FOOTER */
