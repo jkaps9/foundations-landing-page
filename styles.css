@@ -8,18 +8,44 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
+/* HEADER */
 header{
     flex: 0;
-    height: 72px;
+    min-height: 72px;
+    background-color: #1F2937;
+    display: flex;
+    padding: 20px;
 }
 
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+header ul li{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* SECTIONS */
 section {
     flex: 1;
 }
 
+/* FOOTER */
 footer {
     flex: 0;
-    height: 72px;
+    min-height: 72px;
 }
