@@ -10,12 +10,16 @@ body {
     min-height: 100vh;
 }
 
-.header,
-.footer {
+header{
     flex: 0;
     height: 72px;
 }
 
 section {
     flex: 1;
+}
+
+footer {
+    flex: 0;
+    height: 72px;
 }
