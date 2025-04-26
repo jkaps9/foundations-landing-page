@@ -125,7 +125,32 @@ section {
 }
 
 /* TESTIMONIALS */
+.testimonials {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
 
+.testimonials .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 800px;
+}
+
+.testimonials .container .quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.testimonials .container .attribution {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
 
 /* FOOTER */
 footer {
