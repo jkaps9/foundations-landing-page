@@ -85,6 +85,40 @@ section {
     align-content: center;
 }
 
+/* RANDOM INFORMATION */
+.random-information h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    width: 500px;
+    margin: 25px auto;
+}
+
+.random-information .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.random-information .card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.random-information .card .box {
+    border: 4px #3882F6 solid;
+    border-radius: 12px;
+    height: 150px;
+}
+
+
 /* FOOTER */
 footer {
     flex: 0;
