@@ -1,95 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-    color: #F9FAF8;
-    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-body * {
-    flex: 1;
-}
-
-/* HEADER */
-.header {
-    flex: 0;
-    background-color: #1F2937;
-    height: 72px;
-}
-
-.content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-/* HERO */
-.hero {
-    background-color: #1F2937;
-}
-
-/* MAIN CONTENT */
-.main-content {
-    padding-top: 50px;
-}
-
-.main-content h2 {
-    color: #1F2937;
-    font-size: 36px;
-    font-weight: 900;
-    text-align: center;
-}
-
-/* TESTIMONIAL */
-.testimonials {
-    background-color: #E5E7EB;
-    color: #1F2937;
-}
-
-.attribution {
-    font-weight: bold;
-    text-align: end;
-}
-
-/* CALL TO ACTION */
-    /* CTA should be like a modal and not stretch the full window */
-.cta {
-    align-self: center;
-    padding-top: 50px;
-}
-
-.cta-modal {
-    background-color: #3882F6;
-    border-radius: 8px;
-    padding: 25px 100px;
-    display: flex;   
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-}
-
-.cta button {
-    flex: 0;
-    min-width: 130px;
-    background-color: #3882F6;
-    border: 2px white solid;
-    border-radius: 8px;
-    color: white;
-    padding: 6px 18px;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-/* FOOTER */
+.header,
 .footer {
     flex: 0;
     height: 72px;
-    background-color: #1F2937;
+}
+
+section {
+    flex: 1;
 }
