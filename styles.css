@@ -54,13 +54,15 @@ section {
     padding: 20px 110px;
 }
 
+/* HERO */
 .hero {
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
     display: flex;
     justify-content: center;
-    
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .hero .container {
@@ -107,6 +109,7 @@ section {
     justify-content: center;
     align-items: center;
     gap: 32px;
+    padding-bottom: 100px;
 }
 
 .random-information h2 {
@@ -144,6 +147,8 @@ section {
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .testimonials .container{
@@ -171,6 +176,8 @@ section {
 .cta {
     display: flex;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .cta .container {
@@ -204,7 +211,7 @@ section {
 /* FOOTER */
 footer {
     flex: 0;
-    min-height: 72px;
+    min-height: 32px;
     padding: 20px;
     background-color: #1F2937;
     color: #E5E7EB;
