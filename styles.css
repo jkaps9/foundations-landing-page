@@ -168,7 +168,38 @@ section {
 }
 
 /* CALL TO ACTION */
+.cta {
+    display: flex;
+    justify-content: center;
+}
 
+.cta .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 25px 100px;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.cta h3 {
+    font-size: 24px;
+}
+
+.cta button {
+    flex: 0;
+    min-width: 130px;
+    background-color: #3882F6;
+    border: 2px white solid;
+    border-radius: 8px;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 /* FOOTER */
 footer {
