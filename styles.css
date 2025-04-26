@@ -18,8 +18,16 @@ header{
     flex: 0;
     min-height: 72px;
     background-color: #1F2937;
+    padding: 20px 100px; 
     display: flex;
-    padding: 20px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container {
+    flex: 1;
+    display: flex;
+    max-width: 1200px;
 }
 
 .logo {
@@ -51,8 +59,15 @@ section {
     color: #E5E7EB;
     font-size: 18px;
     display: flex;
+    justify-content: center;
+    
+}
+
+.hero .container {
+    display: flex;
     align-items: center;
     gap: 100px;
+    max-width: 1200px;
 }
 
 .hero h1 {
@@ -151,6 +166,9 @@ section {
     font-weight: bold;
     font-size: 24px;
 }
+
+/* CALL TO ACTION */
+
 
 /* FOOTER */
 footer {
