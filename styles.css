@@ -86,12 +86,18 @@ section {
 }
 
 /* RANDOM INFORMATION */
+.random-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
 .random-information h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    width: 500px;
-    margin: 25px auto;
 }
 
 .random-information .card-container {
@@ -117,6 +123,8 @@ section {
     border-radius: 12px;
     height: 150px;
 }
+
+/* TESTIMONIALS */
 
 
 /* FOOTER */
